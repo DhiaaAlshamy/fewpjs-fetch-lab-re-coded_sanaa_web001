@@ -11,7 +11,7 @@ function renderBooks(books) {
     h2.innerHTML = book.name
     main.appendChild(h2)
   })
-  console.log(books);
+ 
 }
 
 document.addEventListener('DOMContentLoaded', function() {
